@@ -1,7 +1,7 @@
 title: Ballroom Beast
 description: Replaces Beast's default outfit with his NPC only ballroom outfit.
 assets:
-- name: obj/P_BB000_.mdlx
+- name: obj/P_BB000.mdlx
   method: binarc
   source:
   - name: p_bb
