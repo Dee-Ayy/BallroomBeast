@@ -1,0 +1,29 @@
+title: Ballroom Beast
+description: Replaces Beast's default outfit with his NPC only ballroom outfit.
+assets:
+- name: obj/P_BB000_.mdlx
+  method: binarc
+  source:
+  - name: p_bb
+    type: model
+    method: copy
+    source:
+    - name: BalroomBeast.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: BalroomBeast.texture
+- name: obj/P_BB000_BTL.mdlx
+  method: binarc
+  source:
+  - name: p_bb
+    type: model
+    method: copy
+    source:
+    - name: BalroomBeast.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: BalroomBeast.texture
